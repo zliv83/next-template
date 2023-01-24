@@ -1,4 +1,4 @@
-@import '../_settings';
+@import '@/styles/__settings.scss';
 
 .page {
   color: map-get($primary, 'main');

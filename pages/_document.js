@@ -5,6 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
+        <link
+          rel="shortcut icon"
+          href="https://res.cloudinary.com/dci8xvvvp/image/upload/v1674581434/assets/webDev_dagmoe.ico"
+        />
       </Head>
       <body>
         <Main />
