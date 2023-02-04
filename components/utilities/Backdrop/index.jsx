@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-import styles from './Backdrop.module.scss';
+import styles from './styles.module.scss';
 
 export default function Backdrop({ show, children, backdropClose }) {
   const [isBrowser, setIsBrowser] = useState(false);
